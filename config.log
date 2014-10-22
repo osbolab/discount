@@ -1,0 +1,39 @@
+[echo -n] works
+Configuring for [markdown]
+Looking for cpp
+CPP=[/lib/cpp], CPPFLAGS=[]
+looking for install
+ (/usr/bin/install)
+checking out the C compiler
+checking for "volatile" keyword
+checking for "const" keyword
+Checking for "inline" keyword
+defining WORD & DWORD scalar types
+looking for header WinDef.h
+looking for header libgen.h
+looking for header pwd.h
+looking for the getpwuid function
+looking for the srandom function
+looking for the bzero function
+ngc2200.c: In function ‘main’:
+ngc2200.c:4:5: warning: incompatible implicit declaration of built-in function ‘bzero’ [enabled by default]
+     bzero((char*)0,0);
+     ^
+looking for the random function
+looking for the strcasecmp function
+ngc2200.c:1:6: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+ void strcasecmp();
+      ^
+looking for the strncasecmp function
+ngc2200.c:1:6: warning: conflicting types for built-in function ‘strncasecmp’ [enabled by default]
+ void strncasecmp();
+      ^
+looking for the fchdir function
+looking for header malloc.h
+find is /usr/bin/find
+/usr/bin/ln exists, and ln -s works
+./configure.inc: line 984: AC: command not found
+sed is /usr/bin/sed
+generating Makefile
+generating version.c
+generating mkdio.h
