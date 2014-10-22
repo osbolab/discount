@@ -1,5 +1,5 @@
 /*
- * configuration for markdown, generated Wed, Oct 22, 2014  1:59:48 PM
+ * configuration for markdown, generated Wed, Oct 22, 2014  2:11:41 PM
  * by msbarnar@EN4093322
  */
 #ifndef __AC_MARKDOWN_D
@@ -8,6 +8,7 @@
 
 #define OS_CYGWIN_NT 1
 #define USE_DISCOUNT_DL 1
+#define WITH_FENCED_CODE 1
 #define while(x) while( (x) != 0 )
 #define if(x) if( (x) != 0 )
 #define HAVE_WINDEF_H 1

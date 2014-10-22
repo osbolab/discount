@@ -15,17 +15,17 @@ looking for header pwd.h
 looking for the getpwuid function
 looking for the srandom function
 looking for the bzero function
-ngc2200.c: In function ‘main’:
-ngc2200.c:4:5: warning: incompatible implicit declaration of built-in function ‘bzero’ [enabled by default]
+ngc6524.c: In function ‘main’:
+ngc6524.c:4:5: warning: incompatible implicit declaration of built-in function ‘bzero’ [enabled by default]
      bzero((char*)0,0);
      ^
 looking for the random function
 looking for the strcasecmp function
-ngc2200.c:1:6: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+ngc6524.c:1:6: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
  void strcasecmp();
       ^
 looking for the strncasecmp function
-ngc2200.c:1:6: warning: conflicting types for built-in function ‘strncasecmp’ [enabled by default]
+ngc6524.c:1:6: warning: conflicting types for built-in function ‘strncasecmp’ [enabled by default]
  void strncasecmp();
       ^
 looking for the fchdir function
